@@ -1,0 +1,60 @@
+// SYNTAX:
+// if(test_expression)
+// {
+//     statement 1;
+//     statement 2;
+//     ...
+// }
+// LOOPS IN C
+
+#include<stdio.h>
+#include <string.h>
+//header file as it gives all input output functions
+int main(){//main function that runs first in any c program
+    //for loop
+    for(int i=0;i<10;i++){//here int i means declaration of any variable as an int datatype where variable is i and datatype in int 
+    // we dont put semicolon here as it is a conditon not statement 
+    //and i<10 means that i's value should be less than 10 only not more than 9 and i++ incrases the value of i each time 
+        printf("%d\n",i);//printf it is a function to print the integer we are printing each value of i till 9 from 0
+    }
+    printf("--------------------------whileloop---------------------------");
+    //while loop
+    int j=0;
+    while(j<10){// we dont put semicolon here as it is a conditon not statement 
+        printf("%d\n",j);
+        j++;
+    }
+    //diffrence between for and while loop 
+    //   for loop                               while loop
+    // Used to obtain the                      // Used to obtain the                      
+    //result only when the                     //result only when the 
+    //number of iterations is known.           //number of iterations is known.
+   
+    //                          Example 
+    char name[5];
+    scanf("%s",name);
+    // printf("%d",strcmp(name,"aditya"));
+    while(strcmp(name,"aditya") != 0){//strcmp is a string function which returns 0 when true else can return any thing  all these functions come under string.h file 
+        scanf("%s",name);
+    }
+    // few of string functions are 	strcpy(destination, source) which copies the content of source string to destination string 
+    //strlen(string_name) tells the length of string 
+    //strcat(first_string, second_string) it joins first string with second string. The result of the string is stored in first string.
+    
+    // so we cant do it by for loop or doing it by for loop will make it more complex 
+    //now do while loop the do while loop is a exit  control loop as condition is checked at the exit of iteration so it will run one  .
+    //while in other loops conditions are checked at the entry point
+    printf("--------------------------do whileloop---------------------------");  
+    int k=0;
+    do{
+        printf("UPES CSA\n");
+        printf("%d",k);
+        k++;
+    }
+    while (k<10);
+    
+    
+    
+    
+}
+
