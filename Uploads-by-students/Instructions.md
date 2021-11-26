@@ -1,1 +1,1 @@
-Do upload the codes in a folder with name_sapid_questionnumber
+Do upload the codes in a .c file  with  file name = name_sapid_questionnumber.c 
