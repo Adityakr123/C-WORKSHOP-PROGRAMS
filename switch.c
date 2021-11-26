@@ -15,7 +15,7 @@
 int main()
 {
    int number;
-   printf("Enter any numbaer from one to 10\n");
+   printf("Enter any number from one to 10\n");
    scanf("%d",&number);
    switch (number)
    {
