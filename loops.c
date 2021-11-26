@@ -11,6 +11,7 @@
 #include <string.h>
 //header file as it gives all input output functions
 int main(){//main function that runs first in any c program
+// diffrence of int main and void main 
     //for loop
     for(int i=0;i<10;i++){//here int i means declaration of any variable as an int datatype where variable is i and datatype in int 
     // we dont put semicolon here as it is a conditon not statement 
@@ -40,7 +41,9 @@ int main(){//main function that runs first in any c program
     // few of string functions are 	strcpy(destination, source) which copies the content of source string to destination string 
     //strlen(string_name) tells the length of string 
     //strcat(first_string, second_string) it joins first string with second string. The result of the string is stored in first string.
-    
+    //	strrev(string) return the reversed string like entring aditya will give aytida
+    //	strlwr(string) it converts whole string to lowercase 
+    // strupr(string) convets whole string to uppercase 
     // so we cant do it by for loop or doing it by for loop will make it more complex 
     //now do while loop the do while loop is a exit  control loop as condition is checked at the exit of iteration so it will run one  .
     //while in other loops conditions are checked at the entry point
@@ -52,6 +55,8 @@ int main(){//main function that runs first in any c program
         k++;
     }
     while (k<10);
+    return 0;
+
     
     
     
