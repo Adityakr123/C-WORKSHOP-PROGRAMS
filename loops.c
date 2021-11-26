@@ -35,7 +35,8 @@ int main(){//main function that runs first in any c program
     char name[5];
     scanf("%s",name);
     // printf("%d",strcmp(name,"aditya"));
-    while(strcmp(name,"aditya") != 0){//strcmp is a string function which returns 0 when true else can return any thing  all these functions come under string.h file 
+    while(strcmp(name,"aditya") != 0){//strcmp is a string function which returns 0 when true else can return any thing  all these functions come under string.h file //u cant compair the two strings using == functions as it compair's the base address of the strings
+
         scanf("%s",name);
     }
     // few of string functions are 	strcpy(destination, source) which copies the content of source string to destination string 
@@ -56,10 +57,5 @@ int main(){//main function that runs first in any c program
     }
     while (k<10);
     return 0;
-
-    
-    
-    
-    
 }
 
