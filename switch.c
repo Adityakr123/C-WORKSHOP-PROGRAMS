@@ -1,16 +1,16 @@
-//                              SWITCH
-// Switch case statements are a substitute 
-// for long if statements that compare a variable to several integral values 
-// here n has certain value and n is passed trough switch
-// switch (n)
-// {
-//     case 1: // code to be executed if n = 1;
-//         break;
-//     case 2: // code to be executed if n = 2;
-//         break;
-//     default: // code to be executed if n doesn't match any cases
-// }
-// Write a code to print any number from one to ten entered by user in alphabetical form
+/*                            SWITCH
+Switch case statements are a substitute 
+for long if statements that compare a variable to several integral values 
+here n has certain value and n is passed trough switch
+switch (n)
+{
+    case 1: // code to be executed if n = 1;
+        break;
+    case 2: // code to be executed if n = 2;
+        break;
+    default: // code to be executed if n doesn't match any cases
+}
+Write a code to print any number from one to ten entered by user in alphabetical form */
 #include <stdio.h>
 int main()
 {
